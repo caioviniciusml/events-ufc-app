@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Atividade"
+        android:textColor="@color/colorOnBackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtResponsavel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Responsável"
+        android:textColor="@color/colorOnBackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data"
+        android:textColor="@color/colorOnBackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição"
+        android:textColor="@color/colorOnBackground"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textColor="@color/colorOnPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:padding="10dp" />
+</LinearLayout>

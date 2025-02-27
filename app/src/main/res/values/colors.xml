@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tons pastéis -->
+    <color name="colorPrimary">#A8DADC</color>         <!-- Azul pastel -->
+    <color name="colorPrimaryVariant">#457B9D</color>   <!-- Azul mais escuro -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#F1FAEE</color>         <!-- Off-white pastel -->
+    <color name="colorSecondaryVariant">#A8DADC</color>
+    <color name="colorBackground">#F1FAEE</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#E63946</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#FFFFFF</color>
+</resources>
